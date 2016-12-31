@@ -34,12 +34,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F55A086A4E5D030528CD120A6BFA67DD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_E854B74F7A1E4274909E309692906289"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -47,6 +41,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_EDE287960B6D0E3ACE6C83A91556F71B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F55A086A4E5D030528CD120A6BFA67DD"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +67,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -83,6 +99,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -264,6 +296,17 @@
                     }
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_F49A3B7D48C64A3FB51504D94C354695"
+            {
+            "Name" = "8:#1919"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramMenuFolder"
+                "Folders"
+                {
+                }
+            }
         }
         "LaunchCondition"
         {
@@ -281,12 +324,12 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RekingService"
         "ProductCode" = "8:{A854A07A-3132-4DD0-ACD0-1C1909F40685}"
-        "PackageCode" = "8:{CC75CC8F-B0D6-4F3F-9BD9-568DF156958A}"
+        "PackageCode" = "8:{73EDC041-6A6E-4268-9022-62DDEB97F8FE}"
         "UpgradeCode" = "8:{43D19C95-E1DF-4F02-80D9-7DCEAC9B2ECA}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
-        "DetectNewerInstalledVersion" = "11:TRUE"
+        "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:01.00.000"
         "Manufacturer" = "8:TheHolyHorse"
@@ -296,7 +339,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:TheHolyHorse"
         "Keywords" = "8:RekingService"
-        "ARPCOMMENTS" = "8:"
+        "ARPCOMMENTS" = "8:The best thing ever!!!!!! Maybe"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
@@ -408,9 +451,23 @@
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
+            "Transitive" = "11:TRUE"
             "Target" = "8:_E854B74F7A1E4274909E309692906289"
             "Folder" = "8:_139F4F2B660448AAA55329CD53D1F23B"
+            "WorkingFolder" = "8:_0CEA12BE8E0748A49A00F9596FD34276"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C9371DEEA05344F789FEF0784ABBD558"
+            {
+            "Name" = "8:RekingService"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_E854B74F7A1E4274909E309692906289"
+            "Folder" = "8:_F49A3B7D48C64A3FB51504D94C354695"
             "WorkingFolder" = "8:_0CEA12BE8E0748A49A00F9596FD34276"
             "Icon" = "8:"
             "Feature" = "8:"

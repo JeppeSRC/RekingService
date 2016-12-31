@@ -33,9 +33,8 @@ namespace US_RekingService {
         private static extern void GetKeyboardLayoutList(uint max, UInt32[] handles);
 
         static void Main(string[] args) {
-
-            new Thread(new ThreadStart(Update)).Start();
-            
+             new Thread(new ThreadStart(Update)).Start();
+ 
         }
     }
 
