@@ -15,24 +15,24 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_B07243FC5914CB7F4C532D01C4ACBBDB"
+        "OwnerKey" = "8:_E854B74F7A1E4274909E309692906289"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D23A5420C969D5B709C44FC2D644BB23"
+        "OwnerKey" = "8:_E854B74F7A1E4274909E309692906289"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E854B74F7A1E4274909E309692906289"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EDE287960B6D0E3ACE6C83A91556F71B"
-        "OwnerKey" = "8:_E854B74F7A1E4274909E309692906289"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F55A086A4E5D030528CD120A6BFA67DD"
-        "OwnerKey" = "8:_E854B74F7A1E4274909E309692906289"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_E854B74F7A1E4274909E309692906289"
         "MsmSig" = "8:_UNDEFINED"
@@ -40,13 +40,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EDE287960B6D0E3ACE6C83A91556F71B"
+        "OwnerKey" = "8:_B07243FC5914CB7F4C532D01C4ACBBDB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F55A086A4E5D030528CD120A6BFA67DD"
+        "OwnerKey" = "8:_D23A5420C969D5B709C44FC2D644BB23"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -108,10 +108,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
                     }
                 }
             }
@@ -164,7 +164,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.5"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.6.1"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=395269"
                 }
@@ -172,14 +172,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EDE287960B6D0E3ACE6C83A91556F71B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B07243FC5914CB7F4C532D01C4ACBBDB"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Windows, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_EDE287960B6D0E3ACE6C83A91556F71B"
+                    "_B07243FC5914CB7F4C532D01C4ACBBDB"
                     {
                     "Name" = "8:System.Windows.dll"
                     "Attributes" = "3:512"
@@ -203,14 +203,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F55A086A4E5D030528CD120A6BFA67DD"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D23A5420C969D5B709C44FC2D644BB23"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_F55A086A4E5D030528CD120A6BFA67DD"
+                    "_D23A5420C969D5B709C44FC2D644BB23"
                     {
                     "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
@@ -324,7 +324,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RekingService"
         "ProductCode" = "8:{A854A07A-3132-4DD0-ACD0-1C1909F40685}"
-        "PackageCode" = "8:{73EDC041-6A6E-4268-9022-62DDEB97F8FE}"
+        "PackageCode" = "8:{E8BA8B24-84A9-470C-8C2A-C311239831DD}"
         "UpgradeCode" = "8:{43D19C95-E1DF-4F02-80D9-7DCEAC9B2ECA}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
